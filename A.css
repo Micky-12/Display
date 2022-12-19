@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+.flat
+{
+    height: 100px;
+    width: 1400px;
+    background-color: rgb(30, 118, 195);
+    animation: color 6s infinite;
+    border-color: rgb(255, 247, 23);
+    border-style:solid;
+    border-top: 0px;
+    border-width: 25px;
+    border-left: 0px;
+}
+.flat1
+{
+    height: 100px;
+    width: 1400px;
+    background-color: transparent;
+}
+p{
+    text-align: left;
+    font-family: Berlin Sans FB;
+    font-size: 30pt;
+}
+image{
+    background-image: image("C:\Users\harsha anand\Pictures\Camera Roll\My_World\College_memories\First Year Onam\IMG_20220902_162529.jpg");
+}
+
+@keyframes color
+{
+    0%{background-color: purple;
+       width: 0;}
+    10%{background-color:yellow}
+    20%{background-color:red}
+    30%{background-color:cadetblue}
+    40%{background-color:orange;}
+    50%{background-color:coral}
+    60%{background-color:green}
+    70%{background-color:cyan}
+    80%{background-color:deeppink}
+    90%{background-color:dodgerblue;
+    width: 100;}
+
+}
+@keyframes move
+{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+
+    70%,90%
+    {
+        width: 100;
+    }
+
+}
